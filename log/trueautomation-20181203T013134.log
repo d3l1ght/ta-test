@@ -1,0 +1,246 @@
+2018-12-02T23:31:35.784Z [[32minfo[39m] 	Starting TrueAutomation.IO client
+2018-12-02T23:31:35.785Z [[32minfo[39m] 	API key: cf2038a3-013f-4b20-9362-8f0c1b91919d
+2018-12-02T23:31:35.785Z [[32minfo[39m] 	Project name: TAEP-homepage
+2018-12-02T23:31:35.785Z [[32minfo[39m] 	Cloud server: https://app.trueautomation.io
+2018-12-02T23:31:35.785Z [[32minfo[39m] 	Starting chromeDriver /Users/delight/.trueautomation/chromedriver/chromedriver_mac64_2.44 on port 9516...
+2018-12-02T23:31:36.224Z [[32minfo[39m] 	TrueAutomation.IO Client is listening on port 9515
+2018-12-02T23:31:37.901Z [[32minfo[39m] 	0 Create session response: {"sessionId":"4be0cdb4acbde127baf54ea60032d1e4","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5)","userDataDir":"/var/folders/s2/z5gqzlh91gq2thydw9h4p3yh0000gn/T/.org.chromium.Chromium.ALfsjd"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:62789"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"ignore","version":"70.0.3538.110","webStorageEnabled":true}}
+2018-12-02T23:31:37.928Z [[32minfo[39m] 	1 Sending POST request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/url:  {"url":"https://trueautomation.io/"}
+2018-12-02T23:31:44.679Z [[32minfo[39m] 	2 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"__taonly__trueautomationio:home:rectBtn__taonly__"}
+2018-12-02T23:31:44.820Z [[32minfo[39m] 	2 Enum nodes response:  {"sessionId":"4be0cdb4acbde127baf54ea600
+2018-12-02T23:31:45.081Z [[32minfo[39m] 	2 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[4]/*[2]/*[2]/*[1]/*[1]/*[1]","using":"xpath"}
+2018-12-02T23:31:45.121Z [[32minfo[39m] 	2 Elements response: {"sessionId":"4be0cdb4acbde127baf54ea60032d1e4","status":0,"value":[{"ELEMENT":"0.1412378297416934-1"}]}
+2018-12-02T23:31:45.125Z [[32minfo[39m] 	3 Sending GET request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/element/0.1412378297416934-1/displayed:  {}
+2018-12-02T23:31:45.143Z [[32minfo[39m] 	4 Sending POST request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/element/0.1412378297416934-1/click:  {}
+2018-12-02T23:31:46.164Z [[32minfo[39m] 	5 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"__taonly__trueautomationio:home:loginBtn__taonly__"}
+2018-12-02T23:31:46.308Z [[32minfo[39m] 	5 Enum nodes response:  {"sessionId":"4be0cdb4acbde127baf54ea600
+2018-12-02T23:31:46.561Z [[32minfo[39m] 	5 Elements locator: {"value":"/*[1]/*[2]/*[1]/*[1]/*[1]/*[2]/*[1]/*[2]/*[1]","using":"xpath"}
+2018-12-02T23:31:46.594Z [[32minfo[39m] 	5 Elements response: {"sessionId":"4be0cdb4acbde127baf54ea60032d1e4","status":0,"value":[{"ELEMENT":"0.2836114186115255-1"}]}
+2018-12-02T23:31:46.597Z [[32minfo[39m] 	6 Sending GET request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/element/0.2836114186115255-1/displayed:  {}
+2018-12-02T23:31:46.612Z [[32minfo[39m] 	7 Sending POST request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/element/0.2836114186115255-1/click:  {}
+2018-12-02T23:31:48.347Z [[32minfo[39m] 	8 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.366Z [[32minfo[39m] 	8 Element not found
+2018-12-02T23:31:48.366Z [[32minfo[39m] 	8 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.423Z [[32minfo[39m] 	9 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.438Z [[32minfo[39m] 	9 Element not found
+2018-12-02T23:31:48.438Z [[32minfo[39m] 	9 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.496Z [[32minfo[39m] 	10 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.510Z [[32minfo[39m] 	10 Element not found
+2018-12-02T23:31:48.510Z [[32minfo[39m] 	10 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.563Z [[32minfo[39m] 	11 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.578Z [[32minfo[39m] 	11 Element not found
+2018-12-02T23:31:48.579Z [[32minfo[39m] 	11 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.637Z [[32minfo[39m] 	12 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.653Z [[32minfo[39m] 	12 Element not found
+2018-12-02T23:31:48.653Z [[32minfo[39m] 	12 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.711Z [[32minfo[39m] 	13 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.728Z [[32minfo[39m] 	13 Element not found
+2018-12-02T23:31:48.728Z [[32minfo[39m] 	13 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.786Z [[32minfo[39m] 	14 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.800Z [[32minfo[39m] 	14 Element not found
+2018-12-02T23:31:48.800Z [[32minfo[39m] 	14 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.859Z [[32minfo[39m] 	15 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.874Z [[32minfo[39m] 	15 Element not found
+2018-12-02T23:31:48.874Z [[32minfo[39m] 	15 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:48.929Z [[32minfo[39m] 	16 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:48.943Z [[32minfo[39m] 	16 Element not found
+2018-12-02T23:31:48.943Z [[32minfo[39m] 	16 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.002Z [[32minfo[39m] 	17 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.016Z [[32minfo[39m] 	17 Element not found
+2018-12-02T23:31:49.017Z [[32minfo[39m] 	17 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.073Z [[32minfo[39m] 	18 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.088Z [[32minfo[39m] 	18 Element not found
+2018-12-02T23:31:49.088Z [[32minfo[39m] 	18 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.146Z [[32minfo[39m] 	19 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.161Z [[32minfo[39m] 	19 Element not found
+2018-12-02T23:31:49.161Z [[32minfo[39m] 	19 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.216Z [[32minfo[39m] 	20 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.231Z [[32minfo[39m] 	20 Element not found
+2018-12-02T23:31:49.231Z [[32minfo[39m] 	20 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.284Z [[32minfo[39m] 	21 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.299Z [[32minfo[39m] 	21 Element not found
+2018-12-02T23:31:49.299Z [[32minfo[39m] 	21 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.357Z [[32minfo[39m] 	22 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.373Z [[32minfo[39m] 	22 Element not found
+2018-12-02T23:31:49.373Z [[32minfo[39m] 	22 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.431Z [[32minfo[39m] 	23 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.447Z [[32minfo[39m] 	23 Element not found
+2018-12-02T23:31:49.447Z [[32minfo[39m] 	23 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.501Z [[32minfo[39m] 	24 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.516Z [[32minfo[39m] 	24 Element not found
+2018-12-02T23:31:49.516Z [[32minfo[39m] 	24 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.573Z [[32minfo[39m] 	25 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.587Z [[32minfo[39m] 	25 Element not found
+2018-12-02T23:31:49.588Z [[32minfo[39m] 	25 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.644Z [[32minfo[39m] 	26 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.659Z [[32minfo[39m] 	26 Element not found
+2018-12-02T23:31:49.659Z [[32minfo[39m] 	26 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.712Z [[32minfo[39m] 	27 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.727Z [[32minfo[39m] 	27 Element not found
+2018-12-02T23:31:49.727Z [[32minfo[39m] 	27 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.786Z [[32minfo[39m] 	28 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.801Z [[32minfo[39m] 	28 Element not found
+2018-12-02T23:31:49.801Z [[32minfo[39m] 	28 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.859Z [[32minfo[39m] 	29 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.877Z [[32minfo[39m] 	29 Element not found
+2018-12-02T23:31:49.877Z [[32minfo[39m] 	29 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:49.932Z [[32minfo[39m] 	30 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:49.948Z [[32minfo[39m] 	30 Element not found
+2018-12-02T23:31:49.948Z [[32minfo[39m] 	30 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.007Z [[32minfo[39m] 	31 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.022Z [[32minfo[39m] 	31 Element not found
+2018-12-02T23:31:50.022Z [[32minfo[39m] 	31 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.078Z [[32minfo[39m] 	32 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.093Z [[32minfo[39m] 	32 Element not found
+2018-12-02T23:31:50.093Z [[32minfo[39m] 	32 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.147Z [[32minfo[39m] 	33 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.162Z [[32minfo[39m] 	33 Element not found
+2018-12-02T23:31:50.162Z [[32minfo[39m] 	33 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.218Z [[32minfo[39m] 	34 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.233Z [[32minfo[39m] 	34 Element not found
+2018-12-02T23:31:50.233Z [[32minfo[39m] 	34 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.291Z [[32minfo[39m] 	35 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.306Z [[32minfo[39m] 	35 Element not found
+2018-12-02T23:31:50.306Z [[32minfo[39m] 	35 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.364Z [[32minfo[39m] 	36 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.379Z [[32minfo[39m] 	36 Element not found
+2018-12-02T23:31:50.379Z [[32minfo[39m] 	36 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.437Z [[32minfo[39m] 	37 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.451Z [[32minfo[39m] 	37 Element not found
+2018-12-02T23:31:50.452Z [[32minfo[39m] 	37 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.505Z [[32minfo[39m] 	38 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.523Z [[32minfo[39m] 	38 Element not found
+2018-12-02T23:31:50.523Z [[32minfo[39m] 	38 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.581Z [[32minfo[39m] 	39 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.597Z [[32minfo[39m] 	39 Element not found
+2018-12-02T23:31:50.598Z [[32minfo[39m] 	39 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.651Z [[32minfo[39m] 	40 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.666Z [[32minfo[39m] 	40 Element not found
+2018-12-02T23:31:50.666Z [[32minfo[39m] 	40 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.724Z [[32minfo[39m] 	41 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.739Z [[32minfo[39m] 	41 Element not found
+2018-12-02T23:31:50.740Z [[32minfo[39m] 	41 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.797Z [[32minfo[39m] 	42 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.812Z [[32minfo[39m] 	42 Element not found
+2018-12-02T23:31:50.812Z [[32minfo[39m] 	42 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.870Z [[32minfo[39m] 	43 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.886Z [[32minfo[39m] 	43 Element not found
+2018-12-02T23:31:50.886Z [[32minfo[39m] 	43 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:50.945Z [[32minfo[39m] 	44 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:50.959Z [[32minfo[39m] 	44 Element not found
+2018-12-02T23:31:50.959Z [[32minfo[39m] 	44 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.018Z [[32minfo[39m] 	45 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.033Z [[32minfo[39m] 	45 Element not found
+2018-12-02T23:31:51.033Z [[32minfo[39m] 	45 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.091Z [[32minfo[39m] 	46 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.106Z [[32minfo[39m] 	46 Element not found
+2018-12-02T23:31:51.106Z [[32minfo[39m] 	46 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.159Z [[32minfo[39m] 	47 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.174Z [[32minfo[39m] 	47 Element not found
+2018-12-02T23:31:51.174Z [[32minfo[39m] 	47 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.233Z [[32minfo[39m] 	48 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.248Z [[32minfo[39m] 	48 Element not found
+2018-12-02T23:31:51.248Z [[32minfo[39m] 	48 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.305Z [[32minfo[39m] 	49 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.320Z [[32minfo[39m] 	49 Element not found
+2018-12-02T23:31:51.320Z [[32minfo[39m] 	49 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.378Z [[32minfo[39m] 	50 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.392Z [[32minfo[39m] 	50 Element not found
+2018-12-02T23:31:51.392Z [[32minfo[39m] 	50 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.448Z [[32minfo[39m] 	51 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.463Z [[32minfo[39m] 	51 Element not found
+2018-12-02T23:31:51.463Z [[32minfo[39m] 	51 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.521Z [[32minfo[39m] 	52 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.536Z [[32minfo[39m] 	52 Element not found
+2018-12-02T23:31:51.536Z [[32minfo[39m] 	52 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.595Z [[32minfo[39m] 	53 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.610Z [[32minfo[39m] 	53 Element not found
+2018-12-02T23:31:51.610Z [[32minfo[39m] 	53 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.665Z [[32minfo[39m] 	54 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.681Z [[32minfo[39m] 	54 Element not found
+2018-12-02T23:31:51.681Z [[32minfo[39m] 	54 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.735Z [[32minfo[39m] 	55 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.749Z [[32minfo[39m] 	55 Element not found
+2018-12-02T23:31:51.750Z [[32minfo[39m] 	55 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.808Z [[32minfo[39m] 	56 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.823Z [[32minfo[39m] 	56 Element not found
+2018-12-02T23:31:51.823Z [[32minfo[39m] 	56 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.881Z [[32minfo[39m] 	57 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.895Z [[32minfo[39m] 	57 Element not found
+2018-12-02T23:31:51.896Z [[32minfo[39m] 	57 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:51.954Z [[32minfo[39m] 	58 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:51.969Z [[32minfo[39m] 	58 Element not found
+2018-12-02T23:31:51.969Z [[32minfo[39m] 	58 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.028Z [[32minfo[39m] 	59 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.042Z [[32minfo[39m] 	59 Element not found
+2018-12-02T23:31:52.042Z [[32minfo[39m] 	59 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.098Z [[32minfo[39m] 	60 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.112Z [[32minfo[39m] 	60 Element not found
+2018-12-02T23:31:52.112Z [[32minfo[39m] 	60 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.172Z [[32minfo[39m] 	61 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.186Z [[32minfo[39m] 	61 Element not found
+2018-12-02T23:31:52.186Z [[32minfo[39m] 	61 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.240Z [[32minfo[39m] 	62 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.255Z [[32minfo[39m] 	62 Element not found
+2018-12-02T23:31:52.255Z [[32minfo[39m] 	62 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.309Z [[32minfo[39m] 	63 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.323Z [[32minfo[39m] 	63 Element not found
+2018-12-02T23:31:52.324Z [[32minfo[39m] 	63 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.382Z [[32minfo[39m] 	64 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.397Z [[32minfo[39m] 	64 Element not found
+2018-12-02T23:31:52.397Z [[32minfo[39m] 	64 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.454Z [[32minfo[39m] 	65 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.469Z [[32minfo[39m] 	65 Element not found
+2018-12-02T23:31:52.469Z [[32minfo[39m] 	65 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.527Z [[32minfo[39m] 	66 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.542Z [[32minfo[39m] 	66 Element not found
+2018-12-02T23:31:52.542Z [[32minfo[39m] 	66 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.598Z [[32minfo[39m] 	67 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.613Z [[32minfo[39m] 	67 Element not found
+2018-12-02T23:31:52.613Z [[32minfo[39m] 	67 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.668Z [[32minfo[39m] 	68 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.683Z [[32minfo[39m] 	68 Element not found
+2018-12-02T23:31:52.683Z [[32minfo[39m] 	68 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.739Z [[32minfo[39m] 	69 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.754Z [[32minfo[39m] 	69 Element not found
+2018-12-02T23:31:52.755Z [[32minfo[39m] 	69 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.813Z [[32minfo[39m] 	70 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.828Z [[32minfo[39m] 	70 Element not found
+2018-12-02T23:31:52.828Z [[32minfo[39m] 	70 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.887Z [[32minfo[39m] 	71 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.901Z [[32minfo[39m] 	71 Element not found
+2018-12-02T23:31:52.901Z [[32minfo[39m] 	71 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:52.960Z [[32minfo[39m] 	72 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:52.974Z [[32minfo[39m] 	72 Element not found
+2018-12-02T23:31:52.974Z [[32minfo[39m] 	72 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.032Z [[32minfo[39m] 	73 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:53.045Z [[32minfo[39m] 	73 Element not found
+2018-12-02T23:31:53.045Z [[32minfo[39m] 	73 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.103Z [[32minfo[39m] 	74 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:53.117Z [[32minfo[39m] 	74 Element not found
+2018-12-02T23:31:53.117Z [[32minfo[39m] 	74 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.173Z [[32minfo[39m] 	75 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:53.187Z [[32minfo[39m] 	75 Element not found
+2018-12-02T23:31:53.187Z [[32minfo[39m] 	75 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.240Z [[32minfo[39m] 	76 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:53.255Z [[32minfo[39m] 	76 Element not found
+2018-12-02T23:31:53.255Z [[32minfo[39m] 	76 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.310Z [[32minfo[39m] 	77 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:53.324Z [[32minfo[39m] 	77 Element not found
+2018-12-02T23:31:53.324Z [[32minfo[39m] 	77 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.378Z [[32minfo[39m] 	78 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"css selector","value":"ytp-large-play-button-bg__ta__trueautomationio:home:ytpBtn__ta__"}
+2018-12-02T23:31:53.393Z [[32minfo[39m] 	78 Element not found
+2018-12-02T23:31:53.393Z [[32minfo[39m] 	78 Elements locator: {"error":"Unable to locate element { method: \"css selector\", selector: \"ytp-large-play-button-bg\" }"}
+2018-12-02T23:31:53.395Z [[32minfo[39m] 	79 Sending GET request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/window_handles:  {}
+2018-12-02T23:31:53.400Z [[32minfo[39m] 	80 Sending POST request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/window:  {"name":"CDwindow-D3FBCBF893847B5D59DDDCA70ED33E54"}
+2018-12-02T23:31:53.406Z [[32minfo[39m] 	81 Sending GET request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/window_handles:  {}
+2018-12-02T23:31:53.410Z [[32minfo[39m] 	82 Sending POST request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/goog/cdp/execute:  {"cmd":"Network.clearBrowserCookies","params":{}}
+2018-12-02T23:31:53.425Z [[32minfo[39m] 	83 Sending DELETE request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/session_storage:  {}
+2018-12-02T23:31:53.431Z [[32minfo[39m] 	84 Sending DELETE request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/local_storage:  {}
+2018-12-02T23:31:53.437Z [[32minfo[39m] 	85 Sending POST request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4/url:  {"url":"about:blank"}
+2018-12-02T23:31:53.466Z [[32minfo[39m] 	86 Sending elements request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {"using":"xpath","value":"/html/body/*"}
+2018-12-02T23:31:53.467Z [[32minfo[39m] 	86 Elements locator: {"value":"/html/body/*","using":"xpath"}
+2018-12-02T23:31:53.483Z [[32minfo[39m] 	86 Elements response: {"sessionId":"4be0cdb4acbde127baf54ea60032d1e4","status":0,"value":[]}
+2018-12-02T23:31:53.531Z [[32minfo[39m] 	87 Sending DELETE request to http://localhost:9516/session/4be0cdb4acbde127baf54ea60032d1e4:  {}
+2018-12-02T23:31:53.624Z [[32minfo[39m] 	Sync elements
+2018-12-02T23:31:54.222Z [[32minfo[39m] 	Stopping driver
